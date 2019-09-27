@@ -45,7 +45,7 @@ def data_get(url):
             num = 0
             page_list = 1
             while True:
-                if num == 2:
+                if num == 2:  # 只设置了两页
                     browser.close()
                     browser.quit()
                     break
